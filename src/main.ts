@@ -1,5 +1,3 @@
-const greeting = () => {
-  Logger.log("Hello World");
-};
+import { getUserNameList } from "./util";
 
-(global as any).greeting = greeting;
+(global as any).getUserNameList = getUserNameList;
